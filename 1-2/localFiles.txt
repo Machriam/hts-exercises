@@ -1,0 +1,6 @@
+Amadeus Lehmann, 26.02.2024
+total 0
+drwxrwxrwx 1 bla bla 4096 Feb 26 11:08 .
+drwxrwxrwx 1 bla bla 4096 Feb 17 14:39 ..
+drwxrwxrwx 1 bla bla 4096 Feb 26 10:29 hts-exercises
+-rwxrwxrwx 1 bla bla    0 Feb 26 11:08 localFiles.txt

@@ -1,0 +1,16 @@
+### 1.2.1
+
+1. Done
+2. Done
+3. `ls -Aal > localFiles.txt`
+4. `scp ./localFiles.txt alehmann@141.89.108.125:~/hts-exercises/1-2`
+5. Done
+6. `scp alehmann@141.89.108.125:~/hts-exercises/1-2/localFiles.txt ./`
+
+### 1.2.2
+
+1. Gedit, Vim, Emacs, GVim, VSCode, Visual Studio, Atom, Neovim, Notepad, Notepad++
+2. Vim, Emacs, Neovim
+3. I do not like Emacs, Emacs is like a bäh-macs. And I do not know to exist this shitty editor, but saving works...
+4. 
+
