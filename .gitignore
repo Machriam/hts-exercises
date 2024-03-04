@@ -5,3 +5,17 @@
 **/*.html
 **/*.zip
 **/*.swp
+**/*.fna
+**/*.amb
+**/*.ann
+**/*.bwt
+**/*.pac
+**/*.sa
+**/*.gff
+**/*.faa
+**/*.fna
+**/*.json
+**/*.jsonl
+**/*.sam
+**/*.bam
+**/README.md
