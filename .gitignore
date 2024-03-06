@@ -29,4 +29,8 @@
 5-1/tview.txt
 5-1/readmapping.sorted.bam.bai
 5-1/voting.txt
-5-1/grandiflora/readmappingGrandiflora.sorted.bam.bai
+**/*.bai
+**/*.vcf
+**/*.bcf
+**/mapping/*
+**/mappingGem/*
