@@ -34,3 +34,4 @@
 **/*.bcf
 **/mapping/*
 **/mappingGem/*
+!**/snpEff_summary.html
