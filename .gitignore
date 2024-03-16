@@ -35,3 +35,12 @@
 **/mapping/*
 **/mappingGem/*
 !**/snpEff_summary.html
+**/*.log
+**/*.bed
+**/*.err
+**/*.out
+**/*.info
+**/*.log0
+**/genomecov
+**/multicov
+**/coverage
