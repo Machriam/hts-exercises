@@ -1,0 +1,22 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!csharp
+
+using System.IO;
+using System.Text.Json;
+using System.Text.RegularExpressions;
+
+#!csharp
+
+var result=new StringBuilder();
+var text= File.ReadAllLines("./output/subsets-raw.vcf");
+var regex=new Regex(".*DP=([0-9]+);.*");
+foreach (var line in text){
+    var match=regex.Match(line);
+    if(!match.Success)continue;
+      var dpValue=int.TryParse(match.Groups[1].Value,out var value)?value:-1;
+      if (dpValue>=100)result.AppendLine(dpValue+": "+line);
+}
+File.WriteAllText("./output/subsets-raw-dp-over-100.vcf",result.ToString())

@@ -1,4 +1,5 @@
 #!/bin/bash
+# Example: ./fastQc.sh ~/../data/Capsella-sequencing/RNA-seq/subsets-phred33/RNA5-s1M1M2.fq.gz 
 trimmomaticPath="/mnt/silo/hts2024/alehmann/libs/trimmomatic/Trimmomatic-0.39/trimmomatic-0.39.jar"
 adapterLookup="/mnt/silo/hts2024/alehmann/libs/trimmomatic/Trimmomatic-0.39/adapters/adapters.fa"
 
